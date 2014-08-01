@@ -10,7 +10,7 @@ angular.module('app.Controllers')
                 text: null
             };
 
-            //ESTO ES UN MENSAJE DE PRUEBA.
+            //ESTO ES UN MENSAJE DE PRUEBA
             var index = parseInt($routeParams.message);
             $scope.messages.push(MessageMgt.GetMessagesById(index));
 
