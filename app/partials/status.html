@@ -1,0 +1,27 @@
+TRONKKKK
+
+<div class="row">
+    <div class="col-md-12">
+        <div message-panel ng-model="messages" add-likes="addLikes(m)"></div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="panel panel-primary" ng-repeat="c in comments">
+            <div class="panel-body">
+                {{c.name}}, el {{c.date}} a las {{c.time}}
+                <BR>
+                {{c.text}}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <H1>Mi Muro</H1>
+
+        <div message-form ng-model="newComment" new-Message-Action="sendComment()"></div>
+    </div>
+</div>

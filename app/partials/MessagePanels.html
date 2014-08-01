@@ -1,0 +1,7 @@
+<div class="panel panel-primary" ng-repeat="m in messages">
+    <div class="panel-heading">{{m.name}}, el {{m.date}} a las {{m.time}}</div>
+    <div class="panel-body">
+        {{m.text}}
+    </div>
+    <div class="panel-footer"><a href="" ng-click="addLikes({m: m})">Me Gusta</a>({{m.likes}})<p class="text-right"><a ng-href="#/status/{{$index}}">Comentarios</a></p></div>
+</div>
