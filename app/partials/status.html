@@ -10,7 +10,7 @@ TRONKKKK
     <div class="col-md-12">
         <div class="panel panel-primary" ng-repeat="c in comments">
             <div class="panel-body">
-                {{c.name}}, el {{c.date}} a las {{c.time}}
+                <a ng-href="#/messagesByUser/{{c.name}}">{{c.name}}</a>, el {{c.date}} a las {{c.time}}
                 <BR>
                 {{c.text}}
             </div>
