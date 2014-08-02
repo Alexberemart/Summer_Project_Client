@@ -2,19 +2,25 @@ angular.module('app.Factory')
     .factory('MessageMgt', [function () {
 
         var messages = [];
+        var currentId = 0;
 
         return {
             GetMessages: function () {
                 return messages;
             },
 
-            GetMessagesById: function (id) {
-                return messages[id];
+            GetMessagesById: function (pId) {
+                return _.findWhere(messages,{id: pId});
+            },
+
+            getMessagesByUserName: function (pName) {
+                return _.where(messages, {name: pName});
             },
 
             SetMessages: function (newMessage) {
 
                 var index = messages.push({
+                    id:         currentId,
                     name:       newMessage.name,
                     text:       newMessage.text,
                     date_time:  new Date(),
@@ -24,6 +30,7 @@ angular.module('app.Factory')
 
                 messages[index].date = messages[index].date_time.toString("d/M/yyyy");
                 messages[index].time = messages[index].date_time.toString("HH:mm");
+                currentId += 1;
 
             },
 
