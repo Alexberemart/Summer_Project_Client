@@ -2,10 +2,10 @@ angular.module('app.Factory')
     .factory('CommentMgt', [function () {
 
         var comments = [];
-        comments.push({
+/*        comments.push({
             text: 'hello',
             idMessage: 0
-        });
+        });*/
         var index = null;
 
         return {
