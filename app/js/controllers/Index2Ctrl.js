@@ -10,7 +10,6 @@ angular.module('app.Controllers')
 
             $scope.sendMessage = function () {
                 MessageMgt.SetMessages($scope.newMessage);
-
                 $scope.newMessage = [];
             };
 

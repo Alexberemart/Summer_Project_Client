@@ -26,6 +26,7 @@ angular.module('app.Controllers')
 
                 resetNewComment();
                 loadComments();
+                MessageMgt.addCommentById(index);
             };
 
             resetNewComment();
