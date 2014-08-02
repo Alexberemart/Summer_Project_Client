@@ -1,7 +1,16 @@
 <div class="panel panel-default" ng-repeat="m in messages">
-    <div class="panel-heading"><a ng-href="#/messagesByUser/{{m.name}}">{{m.name}}</a>, el {{m.date}} a las {{m.time}}</div>
+    <div class="panel-heading"><a ng-href="#/messagesByUser/{{m.name}}">{{m.name}}</a>, el {{m.date}} a las {{m.time}}
+    </div>
     <div class="panel-body">
         {{m.text}}
     </div>
-    <div class="panel-footer"><a href="" ng-click="addLikes({m: m})">Me Gusta</a>({{m.likes}})<p class="text-right"><a ng-href="#/status/{{m.id}}">Comentarios</a>({{m.comments}})</p></div>
+    <div class="panel-footer">
+        <div class="col-md-6">
+            <i class="fa fa-thumbs-o-up"></i>
+            <a href="" ng-click="addLikes({m: m})"> Me Gusta</a>({{m.likes}})
+        </div>
+        <div class="col-md-6 pull-right">
+            <i class="fa-comment-o"></i><a ng-href="#/status/{{m.id}}"> Comentarios</a>({{m.comments}})
+        </div>
+    </div>
 </div>
