@@ -3,27 +3,36 @@ angular.module('app.Factory')
 
         var comments = [];
         comments.push({
-            text: 'hello'
+            text: 'hello',
+            idMessage: 0
         });
+        var index = null;
 
         return {
 
-            getCommentsByIdMessage: function (pIdMessage) {
-                return filteredComments = _.where(comments, {idMessage: pIdMessage});
+            getComments: function () {
+                return comments;
+            },
+
+            getCommentsByIdMessage: function () {
+                return _.where(comments, {idMessage: index});
             },
 
             SetComments: function (newComments) {
 
-                var index = comments.push({
+                var index2 = comments.push({
                     name: newComments.name,
                     text: newComments.text,
                     idMessage: newComments.idMessage,
                     date_time: new Date()
                 }) - 1;
 
-                comments[index].date = comments[index].date_time.toString("d/M/yyyy");
-                comments[index].time = comments[index].date_time.toString("HH:mm");
+                comments[index2].date = comments[index2].date_time.toString("d/M/yyyy");
+                comments[index2].time = comments[index2].date_time.toString("HH:mm");
+            },
 
+            SetIndex: function (pIdMessage) {
+                index = pIdMessage;
             }
         }
     } ]);

@@ -4,8 +4,10 @@ angular.module('app.Controllers')
 
             var index = parseInt($routeParams.message);
 
+            $scope.messages = [];
             $scope.messages.push(MessageMgt.GetMessagesById(index));
-            $scope.comments = CommentMgt.getCommentsByIdMessage(index);
+
+            CommentMgt.SetIndex(index);
 
             var resetNewComment = function () {
                 $scope.newComment = {
@@ -15,12 +17,18 @@ angular.module('app.Controllers')
                 };
             };
 
+            var loadComments = function(){
+                $scope.comments = CommentMgt.getCommentsByIdMessage();
+            };
+
             $scope.sendComment = function () {
                 CommentMgt.SetComments($scope.newComment);
 
                 resetNewComment();
+                loadComments();
             };
 
             resetNewComment();
+            loadComments();
 
         } ]);
