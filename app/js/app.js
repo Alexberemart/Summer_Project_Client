@@ -10,6 +10,10 @@ angular.module('myWall', [ 'ngRoute', 'app.Controllers', 'app.Directives', 'app.
                 templateUrl: 'app/partials/status.html',
                 controller: 'statusCtrl'
             })
+            .when('/messagesByUser/:userName', {
+                templateUrl: 'app/partials/MessagesByUser.html',
+                controller: 'messagesByUser'
+            })
             .otherwise({
                 redirectTo: '/'
             });
