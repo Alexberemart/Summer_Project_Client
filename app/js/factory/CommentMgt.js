@@ -7,8 +7,9 @@ angular.module('app.Factory')
         });
 
         return {
-            GetComments: function () {
-                return comments;
+
+            getCommentsByIdMessage: function (pIdMessage) {
+                return filteredComments = _.where(comments, {idMessage: pIdMessage});
             },
 
             SetComments: function (newComments) {
@@ -16,6 +17,7 @@ angular.module('app.Factory')
                 var index = comments.push({
                     name: newComments.name,
                     text: newComments.text,
+                    idMessage: newComments.idMessage,
                     date_time: new Date()
                 }) - 1;
 
