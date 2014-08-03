@@ -64,28 +64,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="16" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="612">
+            <state line="2" column="6" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Index2Ctrl.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/controllers/Index2Ctrl.js">
+      <file leaf-file-name="CommentMgt.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/factory/CommentMgt.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="46" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="459">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NewMessage.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/Directives/NewMessage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="42" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="493">
+            <state line="3" column="26" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="748">
               <folding />
             </state>
           </provider>
@@ -94,16 +85,25 @@
       <file leaf-file-name="NewMessageForm.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/NewMessageForm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="25" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="391">
+            <state line="12" column="114" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="391">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="statusCtrl.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/app.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="20" selection-start="482" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="425">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="statusCtrl.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers/statusCtrl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="42" selection-start="441" selection-end="441" vertical-scroll-proportion="0.3756906" vertical-offset="0" max-vertical-offset="543">
+            <state line="7" column="33" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -112,7 +112,7 @@
       <file leaf-file-name="index2.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/index2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="47" selection-start="274" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="306">
+            <state line="2" column="8" selection-start="54" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
@@ -121,34 +121,25 @@
       <file leaf-file-name="MessagePanels.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/partials/MessagePanels.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="66" selection-start="259" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="204">
+            <state line="11" column="39" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="357">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MessageDirective.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/Directives/MessageDirective.js">
+      <file leaf-file-name="messagesByUser.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/controllers/messagesByUser.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="408">
+            <state line="4" column="48" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="status.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/partials/status.html">
+      <file leaf-file-name="MessagesByUser.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/partials/MessagesByUser.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="20" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="544">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MessageMgt.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/factory/MessageMgt.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="16" selection-start="597" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="578">
+            <state line="0" column="0" selection-start="0" selection-end="29" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="204">
               <folding />
             </state>
           </provider>
@@ -168,19 +159,21 @@
         <option value="$PROJECT_DIR$/app/js/Directives/Validate_Text.js" />
         <option value="$PROJECT_DIR$/app/js/Directives/ValidateText.js" />
         <option value="$PROJECT_DIR$/app/js/Directives/NewMessage.js" />
-        <option value="$PROJECT_DIR$/app/partials/index2.html" />
         <option value="$PROJECT_DIR$/app/js/controllers/status.js" />
-        <option value="$PROJECT_DIR$/app/js/app.js" />
         <option value="$PROJECT_DIR$/app/js/factory/DateManagementFact.js" />
-        <option value="$PROJECT_DIR$/app/js/factory/MessageMgt.js" />
-        <option value="$PROJECT_DIR$/app/partials/NewMessageForm.html" />
+        <option value="$PROJECT_DIR$/app/js/Directives/MessageDirective.js" />
         <option value="$PROJECT_DIR$/app/js/controllers/Index2Ctrl.js" />
-        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/app/js/controllers/statusCtrl.js" />
+        <option value="$PROJECT_DIR$/app/js/app.js" />
+        <option value="$PROJECT_DIR$/app/js/factory/MessageMgt.js" />
+        <option value="$PROJECT_DIR$/app/js/controllers/messagesByUser.js" />
+        <option value="$PROJECT_DIR$/app/partials/MessagesByUser.html" />
+        <option value="$PROJECT_DIR$/app/partials/index2.html" />
         <option value="$PROJECT_DIR$/app/js/factory/CommentMgt.js" />
         <option value="$PROJECT_DIR$/app/partials/status.html" />
-        <option value="$PROJECT_DIR$/app/js/Directives/MessageDirective.js" />
+        <option value="$PROJECT_DIR$/app/partials/NewMessageForm.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/app/partials/MessagePanels.html" />
-        <option value="$PROJECT_DIR$/app/js/controllers/statusCtrl.js" />
       </list>
     </option>
   </component>
@@ -194,10 +187,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="338" />
-    <option name="y" value="313" />
-    <option name="width" value="1152" />
-    <option name="height" value="720" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -227,7 +220,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -236,8 +228,51 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Summer_Project_Client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Summer_Project_Client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Summer_Project_Client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Summer_Project_Client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Summer_Project_Client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Summer_Project_Client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -256,11 +291,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\Development\GitRepository\Summer_Project_Client\fonts" />
+      <recent name="H:\Development\GitRepository\Summer_Project_Client\css" />
       <recent name="H:\Formaciones\Summer Project\client\app\js\factory" />
       <recent name="H:\Formaciones\Summer Project\client\app\js\controllers" />
       <recent name="H:\Formaciones\Summer Project\client\app\partials" />
-      <recent name="H:\Formaciones\Summer Project\client\js" />
-      <recent name="H:\Formaciones\Summer Project\client\app\js\Directives" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="H:\Formaciones\Summer Project\client\app\js" />
@@ -413,6 +448,10 @@
       <option name="usbDebugPort" value="7936" />
       <method />
     </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
       <module name="" />
       <option name="TESTING_TYPE" value="0" />
@@ -431,10 +470,6 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
-      <TestRunner />
       <method />
     </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" output_log_level="null" package_name="" scope="Class">
@@ -485,6 +520,21 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <extension name="scalaCoverage" />
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <method />
+    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -502,21 +552,6 @@
       <option name="NETWORK_LATENCY" value="none" />
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <method />
-    </configuration>
-    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <extension name="scalaCoverage" />
-      <module name="" />
-      <setting name="path" value="" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
       <method />
     </configuration>
     <list size="0" />
@@ -542,15 +577,18 @@
       <workItem from="1406890389009" duration="27000" />
       <workItem from="1406891840858" duration="19000" />
       <workItem from="1406895022206" duration="5000" />
+      <workItem from="1406895997390" duration="389000" />
+      <workItem from="1406965514782" duration="7483000" />
+      <workItem from="1407072261725" duration="32000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31601000" />
+    <option name="totallyTimeSpent" value="39505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="338" y="313" width="1152" height="720" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -572,7 +610,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2678245" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2673716" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -583,11 +621,11 @@
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -605,8 +643,8 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -627,30 +665,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/partials/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="66" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/factory/CommentMgt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="561" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/status.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/factory/MessageMgt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="16" selection-start="597" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="578">
-          <folding />
-        </state>
+        <state line="23" column="16" selection-start="597" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -662,16 +679,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers/Index2Ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="680">
-          <folding />
-        </state>
+        <state line="13" column="25" selection-start="396" selection-end="396" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="680" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/Directives/NewMessage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="42" selection-start="509" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="19" column="42" selection-start="509" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/NewMessageForm.html">
@@ -697,9 +710,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/status.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
-          <folding />
-        </state>
+        <state line="6" column="6" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers/statusCtrl.js">
@@ -711,9 +722,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/factory/MessageMgt.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="510">
-          <folding />
-        </state>
+        <state line="8" column="14" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="510" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -725,16 +734,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers/Index2Ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="179" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="629">
-          <folding />
-        </state>
+        <state line="7" column="0" selection-start="179" selection-end="282" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="629" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/Directives/NewMessage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="38" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="493">
-          <folding />
-        </state>
+        <state line="14" column="38" selection-start="351" selection-end="351" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/MessagePanels.html">
@@ -758,9 +763,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/status.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="6" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204">
-          <folding />
-        </state>
+        <state line="6" column="6" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="204" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers/statusCtrl.js">
@@ -779,9 +782,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers/Index2Ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="510">
-          <folding />
-        </state>
+        <state line="15" column="23" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="510" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/MessagePanels.html">
@@ -800,9 +801,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers/Index2Ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="510">
-          <folding />
-        </state>
+        <state line="15" column="23" selection-start="519" selection-end="519" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="510" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/MessagePanels.html">
@@ -831,19 +830,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers/Index2Ctrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/partials/index2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="0" selection-start="313" selection-end="313" vertical-scroll-proportion="0.2320819" vertical-offset="0" max-vertical-offset="586" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/angular/angular.js">
@@ -876,82 +868,95 @@
         <state line="0" column="34" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="543" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="39" selection-start="445" selection-end="445" vertical-scroll-proportion="0.31423292" vertical-offset="0" max-vertical-offset="541" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/factory/CommentMgt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="32" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/status.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="20" selection-start="383" selection-end="383" vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="544">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/index2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="47" selection-start="274" selection-end="283" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/Directives/NewMessage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="42" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/Index2Ctrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="46" selection-start="350" selection-end="350" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="459">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/factory/MessageMgt.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="16" selection-start="597" selection-end="751" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="16" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0" vertical-offset="170" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/NewMessageForm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="25" selection-start="673" selection-end="673" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/partials/MessagePanels.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="66" selection-start="259" selection-end="265" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="204">
-          <folding />
-        </state>
+        <state line="19" column="42" selection-start="525" selection-end="525" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="493" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/Directives/MessageDirective.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+        <state line="9" column="0" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/factory/MessageMgt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="14" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/Index2Ctrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="26" selection-start="287" selection-end="287" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/MessagesByUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="29" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers/statusCtrl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="42" selection-start="441" selection-end="441" vertical-scroll-proportion="0.3756906" vertical-offset="0" max-vertical-offset="543">
+        <state line="7" column="33" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="20" selection-start="482" selection-end="496" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/factory/CommentMgt.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="26" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="748">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/index2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="8" selection-start="54" selection-end="123" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="374">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/status.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="5" selection-start="53" selection-end="53" vertical-scroll-proportion="0.063079774" vertical-offset="0" max-vertical-offset="578" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="3" selection-start="165" selection-end="165" vertical-scroll-proportion="0.092391305" vertical-offset="0" max-vertical-offset="26724" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/messagesByUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="48" selection-start="213" selection-end="213" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/NewMessageForm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="114" selection-start="651" selection-end="651" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/partials/MessagePanels.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="39" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="6" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
