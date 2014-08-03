@@ -5,12 +5,14 @@
         {{m.text}}
     </div>
     <div class="panel-footer">
-        <div class="col-md-6">
-            <i class="fa fa-thumbs-o-up"></i>
-            <a href="" ng-click="addLikes({m: m})"> Me Gusta</a>({{m.likes}})
-        </div>
-        <div class="col-md-6 pull-right">
-            <i class="fa-comment-o"></i><a ng-href="#/status/{{m.id}}"> Comentarios</a>({{m.comments}})
+        <div class="row">
+            <div class="col-md-12">
+                <i class="fa fa-thumbs-o-up"></i>
+                <a href="" ng-click="addLikes({m: m})"> Me Gusta</a>({{m.likes}})
+                <div class="pull-right">
+                    <i class="fa fa-comment-o"></i><a ng-href="#/status/{{m.id}}"> Comentarios</a>({{m.comments}})
+                </div>
+            </div>
         </div>
     </div>
 </div>
