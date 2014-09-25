@@ -1,16 +1,23 @@
-<div class="panel panel-default" ng-repeat="m in messages">
-    <div class="panel-heading"><a ng-href="#/messagesByUser/{{m.name}}">{{m.name}}</a>, el {{m.date}} a las {{m.time}}
+<div class="row">
+    <div class="btn-group">
+        <button type="button" class="btn btn-default" ng-click="tmpOrderByDate()" ng-show="showButtons">Order By Date</button>
+        <button type="button" class="btn btn-default" ng-click="tmpOrderByLikes()" ng-show="showButtons">Order By likes</button>
     </div>
-    <div class="panel-body">
-        {{m.text}}
-    </div>
-    <div class="panel-footer">
-        <div class="row">
-            <div class="col-md-12">
-                <i class="fa fa-thumbs-o-up"></i>
-                <a href="" ng-click="addLikes({m: m})"> Me Gusta</a>({{m.likes}})
-                <div class="pull-right">
-                    <i class="fa fa-comment-o"></i><a ng-href="#/status/{{m.id}}"> Comentarios</a>({{m.comments}})
+
+    <div class="panel panel-default" ng-repeat="m in messages | orderBy:predicate:reverse">
+        <div class="panel-heading"><a ng-href="#/messagesByUser/{{m.name}}">{{m.name}}</a>, {{m.date | timeAgo }}
+        </div>
+        <div class="panel-body">
+            {{m.text}}
+        </div>
+        <div class="panel-footer">
+            <div class="row">
+                <div class="col-md-12">
+                    <i class="fa fa-thumbs-o-up"></i>
+                    <a href="" ng-click="addLikes({m: m.index})"> Me Gusta</a>({{m.likes}})
+                    <div class="pull-right">
+                        <i class="fa fa-comment-o"></i><a ng-href="#/status/{{m.index}}"> Comentarios</a>({{m.comments}})
+                    </div>
                 </div>
             </div>
         </div>

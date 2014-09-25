@@ -8,17 +8,18 @@ angular.module('app.Controllers')
             $scope.messages.push(MessageMgt.GetMessagesById(index));
 
             CommentMgt.SetIndex(index);
+            CommentMgt.LoadComments();
 
             var resetNewComment = function () {
                 $scope.newComment = {
                     name: null,
                     text: null,
-                    idMessage: index
+                    idMessage: $scope.messages[0].id
                 };
             };
 
             var loadComments = function(){
-                $scope.comments = CommentMgt.getCommentsByIdMessage();
+                $scope.comments = CommentMgt.getComments();
             };
 
             $scope.sendComment = function () {
@@ -27,6 +28,10 @@ angular.module('app.Controllers')
                 resetNewComment();
                 loadComments();
                 MessageMgt.addCommentById(index);
+            };
+
+            $scope.addLikes = function (pId) {
+                MessageMgt.addLikesById(pId);
             };
 
             resetNewComment();

@@ -6,13 +6,28 @@ angular
 
             templateUrl: 'app/partials/MessagePanels.html',
 
-            require: '^ngModel',
+            require: ['^ngModel'],
 
             replace: true,
 
             scope: {
                 addLikes: '&',
-                messages: '=ngModel'
+                messages: '=ngModel',
+                predicate: '=ngPredicate',
+                reverse: '=ngReverse',
+                orderByLikes: '&',
+                orderByDate: '&',
+                showButtons: '=ngShowButtons'
+            },
+
+            link: function (scope, element, attributes) {
+                scope.tmpOrderByLikes = function () {
+                    scope.orderByLikes();
+                }
+
+                scope.tmpOrderByDate = function () {
+                    scope.orderByDate();
+                }
             }
 
         };

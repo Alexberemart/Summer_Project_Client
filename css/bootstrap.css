@@ -6201,3 +6201,8 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
+
+
+input.ng-invalid {
+    border: 1px solid red;
+}

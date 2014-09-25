@@ -17,4 +17,29 @@ angular.module('myWall', [ 'ngRoute', 'app.Controllers', 'app.Directives', 'app.
             .otherwise({
                 redirectTo: '/'
             });
-    } ]);
+    } ])
+
+    .factory('sessionInjector', [function () {
+        var sessionInjector = {
+            request: function (config) {
+                //config.headers['x-session-token'] = 'pepe';
+                return config;
+            }
+        };
+        return sessionInjector;
+    }])
+
+    .config(['$httpProvider', function ($httpProvider) {
+        $httpProvider.interceptors.push('sessionInjector');
+    }])
+
+.filter('timeAgo', function() {
+        return function(value) {
+            if(!(value instanceof Date)) {
+                return null;
+            }
+
+            //return $.timeago(value);
+            return value;
+        };
+    });

@@ -3,6 +3,10 @@ angular.module('app.Controllers')
         function ($scope, $routeParams, MessageMgt) {
 
             $scope.name = $routeParams.userName;
-            $scope.messages =MessageMgt.getMessagesByUserName($scope.name);
+            $scope.messages = MessageMgt.getMessagesByUserName($scope.name);
+
+            $scope.addLikes = function (pId) {
+                MessageMgt.addLikesById(pId);
+            };
 
         } ]);
